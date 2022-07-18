@@ -5,18 +5,15 @@ import Searh from './Search';
 import Auth from './Auth';
 import Heading from './Heading';
 
-
 export const Header = props => {
-  return (
-    <header className={style.header}>
-      <Layout>
-        <div className={style.gridContainer}>
-          <Logo/>
-          <Heading text="Заголовок" />
-          <Searh/>
-          <Auth auth=""/>
-        </div>
-      </Layout>
-    </header>
-  )
-}
+  <header className={style.header}>
+    <Layout>
+      <div className={style.gridContainer}>
+        <Logo/>
+        <Heading text="Заголовок" />
+        <Searh/>
+        <Auth auth=""/>
+      </div>
+    </Layout>
+  </header>;
+};

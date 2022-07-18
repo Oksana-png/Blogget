@@ -1,10 +1,7 @@
-import style from './Main.module.css';
 import Layout from '../Layout';
 
-export const Main = props => {
-  return (
-    <main>
-      <Layout />
-    </main>
-  )
-}
+export const Main = props => (
+  <main>
+    <Layout />
+  </main>
+);
